@@ -14,6 +14,7 @@
        $publicIp = exec ("curl ifconfig.co");
        $uname = exec("uname -a");
        $cpu = exec("grep 'model name' /proc/cpuinfo");
+       $procVersion = exec ("cat /proc/version");
        $hostname = exec ("hostname");
        $date = exec ("date");
        $cmd = "curl freegeoip.net/json/" . $publicIp;
@@ -30,6 +31,7 @@
        print ("<li>I seem to be close to " . $city . ", " . $country . "</li>\n");
        //print ("<li>Trying to reverse lookup the public IP with dig: " . $fqdn . "</li>\n");
        print ("<li>Kernel information: " . $uname . "</li>\n");
+       print ("<li>/proc/version information: " . $procVersion . "</li>\n");
        print ("<li>CPU information: " . $cpu . "</li>\n");
        print ("<li>Current time: " . $date . "</li>\n");
      ?>
