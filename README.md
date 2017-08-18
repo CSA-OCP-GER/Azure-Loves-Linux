@@ -6,10 +6,11 @@ These contents are not ready yet, I have multiple bits and pieces that I am work
 1. Azure intro (slides [here](https://github.com/CSA-OCP-GER/Azure-Loves-Linux/raw/master/Azure101-public.pptx))
   * What is Azure
   * What are Azure main differentiators
-2. Demo/Hands-On: creating a Linux VM with a custom extension through ARM template
+2. Demo/Hands-On: creating a Linux VM with a custom extension through [this ARM template](https://github.com/CSA-OCP-GER/Azure-Loves-Linux/blob/master/genericLinuxVM-templ.json)
   * What is an ARM template: declarative model
   * Using Azure CLI 2.0 to deploy the ARM template
   * Using custom VM extensions to deploy a customized Linux VM
+  * Advanced ARM template concepts like conditional functions or hash variables
 3. Demo/Hands-On: using Ansible to manage Azure and Linux VM desired state
   * Use [this guide](https://github.com/erjosito/ansible-azure-lab)
 
