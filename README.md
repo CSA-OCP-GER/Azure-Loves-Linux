@@ -3,7 +3,7 @@
 These contents are not ready yet, I have multiple bits and pieces that I am working on combining into a cohesive agenda. The idea of this workshop is having powerpoint-light, demo-heavy sessions. This is the structure so far:
 
 ## Part 1: Azure and Linux VMs
-1. Azure intro (slides here)
+1. Azure intro (slides [here](https://github.com/CSA-OCP-GER/Azure-Loves-Linux/raw/master/Azure101-public.pptx))
   * What is Azure
   * What are Azure main differentiators
 2. Demo/Hands-On: creating a Linux VM with a custom extension through ARM template
