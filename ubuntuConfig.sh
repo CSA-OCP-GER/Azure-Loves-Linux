@@ -1,7 +1,7 @@
 # Install Apache and PHP
 sudo apt-get update
 sudo apt-get install apache2 -y
-sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql -y
+sudo apt-get install php libapache2-mod-php php-mcrypt php-mysql curl -y
 sudo systemctl restart apache2
 
 # Delete default web site and download a new one
