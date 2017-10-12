@@ -17,9 +17,7 @@ These contents are not ready yet, I have multiple bits and pieces that I am work
 ## Part 2: Azure and Linux Containers
 4. Demo/Hands-On: use Azure Container Instances
 5. Demo/Hands-On: create a Kubernetes ACS cluster
-6. Demo: create a CI/CD chain with Github and Jenkins to deploy an app to ACS 
-  * For this section a demo (as opposed to a hackaton/lab) is recommended, since there are multiple moving parts external to Azure (Github account configuration, Jenkins configuration, Docker hub account) that could go wrong in a Hands-On scenario
-  * You can use [this guide](https://docs.microsoft.com/en-us/azure/container-service/kubernetes/container-service-kubernetes-jenkins) to build your demo
+6. Demo: create a CI/CD chain with Github and Jenkins to deploy an app to ACS: https://github.com/erjosito/SQLServerDocker 
   
 ## Demo or Hands-On?
 
